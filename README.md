@@ -15,6 +15,16 @@ Comparez l’empreinte avec celle affichée par PowerShell :
 ```powershell
 Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Setup-0.2.0.exe'
 ```
+[Télécharger le certificat public du pilote (.cer)](https://github.com/malkico/orymos-downloads/releases/download/runner-497f23a81de3a11760fac9aab7dd6a7e7e2f33dc-43583364919/Orymos-Runner-Pilote.cer)
+
+SHA-256 du certificat : `a56fedc791540d3a29f21e46fc3dfa1c119c9792f596c6cc8d4830d2012f2259`
+
+Pour le pilote, vérifiez cette empreinte avant d’ajouter le certificat à Windows. Sur un PC d’entreprise, transmettez le certificat et son empreinte à votre équipe IT.
+
+```powershell
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Pilote.cer'
+```
+
 <!-- orymos-runner-download:end -->
 
 Un compte Orymos et un appairage sont nécessaires pour utiliser le service.
