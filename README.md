@@ -5,26 +5,16 @@ Ce dépôt distribue les installateurs Windows du Runner Orymos via les releases
 <!-- orymos-runner-download:start -->
 ## Téléchargement recommandé pour Windows
 
-[Télécharger Orymos Runner 0.2.0](https://github.com/malkico/orymos-downloads/releases/download/runner-497f23a81de3a11760fac9aab7dd6a7e7e2f33dc-43583364919/Orymos-Runner-Setup-0.2.0.exe)
+[Télécharger Orymos Runner 0.3.0](https://github.com/malkico/orymos-downloads/releases/download/runner-24bab7166cdcf2851509367a79b2808f1d1fed94-43706118586/Orymos-Runner-Setup-0.3.0.exe)
 
-Build `497f23a` · Signé avec le certificat du pilote  
-SHA-256 `c0439779287bf3df09171e047951f922a904b62c38dca5c019e3a78fdcfa5f3e`
+Build `24bab71` · Signé avec le certificat du pilote  
+SHA-256 `686a509ecddc18862364d6ac3c452d3d6b9d6fdb640425235643d37adaaf6387`
 
 Comparez l’empreinte avec celle affichée par PowerShell :
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Setup-0.2.0.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Setup-0.3.0.exe'
 ```
-[Télécharger le certificat public du pilote (.cer)](https://github.com/malkico/orymos-downloads/releases/download/runner-497f23a81de3a11760fac9aab7dd6a7e7e2f33dc-43583364919/Orymos-Runner-Pilote.cer)
-
-SHA-256 du certificat : `a56fedc791540d3a29f21e46fc3dfa1c119c9792f596c6cc8d4830d2012f2259`
-
-Pour le pilote, vérifiez cette empreinte avant d’ajouter le certificat à Windows. Sur un PC d’entreprise, transmettez le certificat et son empreinte à votre équipe IT.
-
-```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Pilote.cer'
-```
-
 <!-- orymos-runner-download:end -->
 
 Un compte Orymos et un appairage sont nécessaires pour utiliser le service.
