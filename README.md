@@ -5,15 +5,15 @@ Ce dépôt distribue les installateurs Windows du Runner Orymos via les releases
 <!-- orymos-runner-download:start -->
 ## Téléchargement recommandé pour Windows
 
-[Télécharger Orymos Runner 0.3.0](https://github.com/malkico/orymos-downloads/releases/download/runner-24bab7166cdcf2851509367a79b2808f1d1fed94-43706118586/Orymos-Runner-Setup-0.3.0.exe)
+[Télécharger Orymos Runner 0.3.2](https://github.com/malkico/orymos-downloads/releases/download/runner-eaa222f2558981bac1aa13baa7e87a431bd72a28-44437732919/Orymos-Runner-Setup-0.3.2.exe)
 
-Build `24bab71` · Signé avec le certificat du pilote  
-SHA-256 `686a509ecddc18862364d6ac3c452d3d6b9d6fdb640425235643d37adaaf6387`
+Build `eaa222f` · Signé avec le certificat du pilote  
+SHA-256 `4019c9af1bbbdc43dc9cfbc1126b39f682ef192ffe502705fcf1a7995382641b`
 
 Comparez l’empreinte avec celle affichée par PowerShell :
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Setup-0.3.0.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\Orymos-Runner-Setup-0.3.2.exe'
 ```
 <!-- orymos-runner-download:end -->
 
